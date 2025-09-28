@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+    Paleta:
+    lapis-lazuli: #2F6690
+    cerulean: #3A7CA5
+    platinum: #D9DCD6
+    indigo dye: #16425B
+    sky blue: #81C3D7
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #16425B;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #D9DCD6;
+    width: 250px;
+    height: 500px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #16425B url(../imagens/pexels-matej-117839-774548.jpg) no-repeat;
+    background-size: cover;
+    background-position: left center;
+    height: 200px;
+}
+
+section#login > div#form {
+    display: block;
+    padding: 7px;
+}
