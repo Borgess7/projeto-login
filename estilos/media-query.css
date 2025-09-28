@@ -24,6 +24,10 @@
 
 @media screen and (min-width: 992px) {
 
+    div#form > p {
+    font-size: 1.2em;
+}
+
     body {
         background-image: linear-gradient(to top, #81C3D7, #16425B);
     }

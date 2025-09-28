@@ -57,3 +57,12 @@ section#login > div#form {
     display: block;
     padding: 7px;
 }
+
+div#form > h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+div#form > p {
+    font-size: 0.9em;
+}
